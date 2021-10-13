@@ -41,9 +41,9 @@ public class PinguArt extends MiniJava {
                     int digit = x % 10;
                     x = x / 10;
                     if (digit == 1) {
-                        writeConsole("~");
-                    } else if (digit == 2) {
                         writeConsole("-");
+                    } else if (digit == 2) {
+                        writeConsole("~");
                     } else if (digit == 3) {
                         writeConsole("P");
                     } else {
